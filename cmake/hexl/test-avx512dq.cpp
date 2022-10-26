@@ -11,5 +11,5 @@ int main() {
   int result = _mm256_extract_epi64(sum0, 0);
   int expected = 3;
   // return (result == expected) ? 0 : 1;
-  return 0; // disable AVX512DQ
+  return 1; // disable AVX512DQ
 }
